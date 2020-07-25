@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba 3</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Navbar -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    Museo Louvre
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                    
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Arte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pinturas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Obras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Galeria -->
+        <main>
+            <div class="row no-gutters">
+                <div class="col pinturas d-none d-md-block">
+                    <div class="card shadow-sm">
+                        <img src="./img/1.jpg" alt="" class="bd-placeholder-img card-img-top" width="100%">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">La noche estrellada</h5>
+                        <p class="card-text">
+                            Van Gogh visualizo este cuadro mientras tenia uno de sus frecuentes ataques de epilepsia
+                        </p>
+                        <button type="button" class="button-noche">Me Gusta</button>
+                    </div>
+                </div>
+                <div class="col pinturas d-none d-xl-block">
+                    <div class="card shadow-sm">
+                        <img src="./img/2.jpg" alt="" class="bd-placeholder-img card-img-top" width="100%">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">La Gioconda</h5>
+                        <p class="card-text">
+                            Leonardo Da vinci dejo un mensaje oculto en la pintura que aun no ha sido descifrado.
+                        </p>
+                        <button type="button" class="button-gioconda">Me Gusta</button>
+                    </div>
+                </div>
+                <div class="col pinturas">
+                    <div class="card shadow-sm">
+                        <img src="./img/3.jpg" alt="" class="bd-placeholder-img card-img-top" width="100%">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">El grito</h5>
+                        <p class="card-text">
+                            Edvard Munch visualizo este cuadro al contemplar  con estremecimiento como el cielo
+                            se tornaba rojo sangre y, temblando de miedo, escucho que "un grito interminable atravesaba la naturaleza"
+                        </p>
+                        <button type="button" class="button-elgrito">Me Gusta</button>
+                    </div>
+                </div>
+                <div class="col pinturas d-none d-lg-block">
+                    <div class="card shadow-sm">
+                        <img src="./img/4.jpg" alt="" class="bd-placeholder-img card-img-top" width="100%">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Relojes Derretidos</h5>
+                        <p class="card-text">
+                            Salvador Dali visualizaba sus cuadros en ese breve instante, de solo algunos segundos,
+                            que hay entre la lucidez y el dormir. Ese momento intermedio en el cual es dificil asegurar
+                            si estamos sonando o pensando.
+                        </p>
+                        <button type="button" class="button-reloj">Me Gusta</button>
+                    </div>
+                </div>
+                <div class="col pinturas d-none d-sm-block">
+                    <div class="card shadow-sm">
+                        <img src="./img/5.jpg" alt="" class="bd-placeholder-img card-img-top" width="100%">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Marily Monroe</h5>
+                        <p class="card-text">
+                            En 1968,Andy Warhol predijo los programas de farandula, reality show e incluso a los influencers y youtubers con su frase: 
+                            "En el futuro, todos seran famosos mundialmente por 15 minutos."
+                        </p>
+                        <button type="button" class="button-marilyn">Me Gusta</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

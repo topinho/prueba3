@@ -1,0 +1,67 @@
+.pinturas {
+  padding: 0%;
+  border: #e0dbdb 1px;
+  border-style: solid;
+}
+
+.button-noche {
+  color: yellow;
+  font-size: medium;
+  font-weight: 700;
+  border-radius: 15px;
+  background-image: url("./../img/1.jpg");
+  width: 100px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.button-gioconda {
+  color: red;
+  font-size: medium;
+  font-weight: 700;
+  border-radius: 15px;
+  background-image: url("./../img/2.jpg");
+  width: 100px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.button-elgrito {
+  color: white;
+  font-size: medium;
+  font-weight: 700;
+  border-radius: 15px;
+  background-image: url("./../img/3.jpg");
+  width: 100px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.button-reloj {
+  color: red;
+  font-size: medium;
+  font-weight: 700;
+  border-radius: 15px;
+  background-image: url("./../img/4.jpg");
+  width: 100px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.button-marilyn {
+  color: yellow;
+  font-size: medium;
+  font-weight: 700;
+  border-radius: 15px;
+  background-image: url("./../img/5.jpg");
+  width: 100px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/*# sourceMappingURL=estilos.css.map */

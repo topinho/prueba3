@@ -1,0 +1,11 @@
+@mixin inicializar-button($color, $url) {
+    color: $color;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 15px;
+    background-image: $url;
+    width: 100px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

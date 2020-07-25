@@ -1,0 +1,29 @@
+.button-noche {
+    $color: yellow;
+    $url: url('./../img/1.jpg');
+    @include inicializar-button($color, $url);
+}
+
+.button-gioconda {
+    $color: red;
+    $url: url('./../img/2.jpg');
+    @include inicializar-button($color, $url);
+}
+
+.button-elgrito {
+    $color: white;
+    $url: url('./../img/3.jpg');
+    @include inicializar-button($color, $url);
+}
+
+.button-reloj {
+    $color: red;
+    $url: url('./../img/4.jpg');
+    @include inicializar-button($color, $url);
+}
+
+.button-marilyn {
+    $color: yellow;
+    $url: url('./../img/5.jpg');
+    @include inicializar-button($color, $url);
+}
